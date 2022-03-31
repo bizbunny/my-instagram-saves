@@ -1,0 +1,18 @@
+.footer{
+    overflow-x: hidden;
+    display: block;
+    color:rgb(250, 162, 196);
+    background: palegoldenrod;
+    border-top: none;
+}
+.footer-container{
+    padding: 20px 0px;
+}
+.footer-nav{
+    margin-bottom: 80px;
+}
+@media screen and (max-width: 1280px){
+    .footer-container{
+        padding: 50px 0;
+    }
+}

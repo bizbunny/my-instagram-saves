@@ -1,0 +1,9 @@
+Button{
+    /*background-color: rgb(250, 127, 174);*/
+    background-color: #1976d2;
+    text-transform: uppercase;
+  }
+img{
+    max-width: max-content;
+    margin: 0.5px;
+}
