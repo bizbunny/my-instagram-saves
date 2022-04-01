@@ -7,6 +7,8 @@ import {
     Grid
 } from "@mui/material";
 
+import Tooltip from '@mui/material/Tooltip';
+
 // markup
 export default function CoolArtPage(){
   return (
@@ -19,7 +21,9 @@ export default function CoolArtPage(){
                     </Grid>
                     <Grid item xl={3} lg={4} md={6} sm={12}>
                         <Link to="https://www.instagram.com/p/CG2Gs_aAY0x/">
+                        <Tooltip title="Play Video" arrow placement="top" followCursor>
                             <img src="https://pbs.twimg.com/profile_banners/575415904/1627833878/1500x500" alt="Miu_akatsuki stuff"/>
+                            </Tooltip>
                         </Link>
                     </Grid>
                 </Grid>

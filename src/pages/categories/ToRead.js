@@ -10,7 +10,7 @@ import {
 // markup
 export default function ToReadPage(){
   return (
-    <Layout pageTitle="Disney">
+    <Layout pageTitle="To Read">
         <section className="section header">
             <Container maxWidth="xl">
                 <Grid container spacing={5}>

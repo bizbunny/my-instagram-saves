@@ -10,7 +10,7 @@ import {
 // markup
 export default function NightCrawlerPage(){
   return (
-    <Layout pageTitle="Fashion">
+    <Layout pageTitle="Nightcrawler">
         <section className="section header">
             <Container maxWidth="xl">
                 <Grid container spacing={5}>

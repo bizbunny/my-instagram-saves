@@ -15,3 +15,15 @@ img{
     margin: 0.5px;
     border-radius: 8px;
 }
+h4{
+    color: #1976d2;
+}
+/*--------------image stuff----------------*/
+
+img:hover{
+    opacity: 0.3;
+}
+
+.hoverText{
+    text-align: center;
+}
