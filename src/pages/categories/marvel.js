@@ -25,12 +25,18 @@ export default function MarvelPage(){
                         </Link>
                     </Grid>
                     <Grid item xl={3} lg={4} md={6} sm={12}>
+                        <Link to="https://www.instagram.com/p/CHBsMw4luST/">
+                            <img src="https://64.media.tumblr.com/197cc94e1eef30f6b78750ac8c1d4430/747d691a36b75330-a4/s1280x1920/5abe9f8fb0e9df7514ccb5c6674a2fc14c74a622.jpg" alt="Falcon and Winter Soldier"/>
+                        </Link>
+                    </Grid>
+                    <Grid item xl={3} lg={4} md={6} sm={12}>
                         <Link to="https://www.instagram.com/p/CAVY90yg8ZO/">
                         <Tooltip title="Play Video" arrow placement="top" followCursor>
                             <img src="https://pbs.twimg.com/profile_banners/575415904/1627833878/1500x500" alt="Loki and Bucky Fanart"/>
                         </Tooltip>
                         </Link>
                     </Grid>
+                    
                     <Grid item xl={12} lg={12} md={12} sm={12}>
                         <p>Marvel Related Sub-Categories</p>
                     </Grid>

@@ -27,7 +27,7 @@ import {
 import Footer from "../components/footer/footer";
 
 export default function Layout({ pageTitle, children }){
-  const categories = ['Cool Art','Disney', 'Fashion', 'Marvel *', 'To Read', 'To Visit'];
+  const categories = ['Cool Art', 'Fashion', 'Franchises •', 'Marvel •', 'To Read', 'To Visit'];
   const [state, setState] = React.useState({
     right: false,
   });
@@ -53,10 +53,10 @@ export default function Layout({ pageTitle, children }){
         <Link to="/categories/CoolArt" className={navLinkText}><ListItemText primary={categories[0]} /></Link>
         </ListItem>
         <ListItem button key={categories[1]}>
-        <Link to="/categories/Disney" className={navLinkText}><ListItemText primary={categories[1]} /></Link>
+        <Link to="/categories/fashion" className={navLinkText}><ListItemText primary={categories[1]} /></Link>
         </ListItem>
         <ListItem button key={categories[2]}>
-        <Link to="/categories/fashion" className={navLinkText}><ListItemText primary={categories[2]} /></Link>
+        <Link to="/categories/franchises" className={navLinkText}><ListItemText primary={categories[2]} /></Link>
         </ListItem>
         <ListItem button key={categories[3]}>
         <Link to="/categories/marvel" className={navLinkText}><ListItemText primary={categories[3]} /></Link>
