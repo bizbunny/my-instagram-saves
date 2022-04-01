@@ -27,7 +27,7 @@ import {
 import Footer from "../components/footer/footer";
 
 export default function Layout({ pageTitle, children }){
-  const categories = ['Disney', 'Fashion','Nightcrawler', 'To Read', 'To Visit'];
+  const categories = ['Cool Art','Disney', 'Fashion', 'Marvel', 'Nightcrawler', 'To Read', 'To Visit'];
   const [state, setState] = React.useState({
     right: false,
   });
@@ -50,19 +50,25 @@ export default function Layout({ pageTitle, children }){
     >
       <List>
         <ListItem button key={categories[0]}>
-        <Link to="/categories/Disney" className={navLinkText}><ListItemText primary={categories[0]} /></Link>
+        <Link to="/categories/CoolArt" className={navLinkText}><ListItemText primary={categories[0]} /></Link>
         </ListItem>
         <ListItem button key={categories[1]}>
-        <Link to="/categories/fashion" className={navLinkText}><ListItemText primary={categories[1]} /></Link>
+        <Link to="/categories/Disney" className={navLinkText}><ListItemText primary={categories[1]} /></Link>
         </ListItem>
         <ListItem button key={categories[2]}>
-        <Link to="/categories/Nightcrawler" className={navLinkText}><ListItemText primary={categories[2]} /></Link>
+        <Link to="/categories/fashion" className={navLinkText}><ListItemText primary={categories[2]} /></Link>
         </ListItem>
         <ListItem button key={categories[3]}>
-        <Link to="/categories/ToRead" className={navLinkText}><ListItemText primary={categories[3]} /></Link>
+        <Link to="/categories/marvel" className={navLinkText}><ListItemText primary={categories[3]} /></Link>
         </ListItem>
-        <ListItem button key={categories[3]}>
-        <Link to="/categories/PlacesToVisit" className={navLinkText}><ListItemText primary={categories[4]} /></Link>
+        <ListItem button key={categories[4]}>
+        <Link to="/categories/Nightcrawler" className={navLinkText}><ListItemText primary={categories[4]} /></Link>
+        </ListItem>
+        <ListItem button key={categories[5]}>
+        <Link to="/categories/ToRead" className={navLinkText}><ListItemText primary={categories[5]} /></Link>
+        </ListItem>
+        <ListItem button key={categories[6]}>
+        <Link to="/categories/PlacesToVisit" className={navLinkText}><ListItemText primary={categories[6]} /></Link>
         </ListItem>
       </List>
       {/* <List>

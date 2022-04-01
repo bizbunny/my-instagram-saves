@@ -1,9 +1,16 @@
+html{
+    border-top: none;
+    background: #beccfc;
+}
 Button{
     /*background-color: rgb(250, 127, 174);*/
     background-color: #1976d2;
     text-transform: uppercase;
   }
 img{
-    max-width: max-content;
+    object-fit: cover;
+    width: 20em;
+    height: 20em;
     margin: 0.5px;
+    border-radius: 8px;
 }
