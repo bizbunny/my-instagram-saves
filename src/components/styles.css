@@ -1,6 +1,7 @@
 html{
     border-top: none;
     background: #beccfc;
+    text-align: center;
 }
 Button{
     /*background-color: rgb(250, 127, 174);*/
