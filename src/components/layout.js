@@ -27,7 +27,7 @@ import {
 import Footer from "../components/footer/footer";
 
 export default function Layout({ pageTitle, children }){
-  const categories = ['Cool Art', 'Fashion', 'Franchises •', 'Marvel •', 'To Read', 'To Visit'];
+  const categories = ['Cool Art •', 'Fashion', 'Franchises •', 'Fun Posts','Marvel •', 'To Read', 'To Visit'];
   const [state, setState] = React.useState({
     right: false,
   });
@@ -59,13 +59,16 @@ export default function Layout({ pageTitle, children }){
         <Link to="/categories/franchises" className={navLinkText}><ListItemText primary={categories[2]} /></Link>
         </ListItem>
         <ListItem button key={categories[3]}>
-        <Link to="/categories/marvel" className={navLinkText}><ListItemText primary={categories[3]} /></Link>
+        <Link to="/categories/FunPosts" className={navLinkText}><ListItemText primary={categories[3]} /></Link>
         </ListItem>
         <ListItem button key={categories[4]}>
-        <Link to="/categories/ToRead" className={navLinkText}><ListItemText primary={categories[4]} /></Link>
+        <Link to="/categories/marvel" className={navLinkText}><ListItemText primary={categories[4]} /></Link>
         </ListItem>
         <ListItem button key={categories[5]}>
-        <Link to="/categories/PlacesToVisit" className={navLinkText}><ListItemText primary={categories[5]} /></Link>
+        <Link to="/categories/ToRead" className={navLinkText}><ListItemText primary={categories[5]} /></Link>
+        </ListItem>
+        <ListItem button key={categories[6]}>
+        <Link to="/categories/PlacesToVisit" className={navLinkText}><ListItemText primary={categories[6]} /></Link>
         </ListItem>
       </List>
       {/* <List>
