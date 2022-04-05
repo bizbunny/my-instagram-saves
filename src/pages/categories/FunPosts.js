@@ -24,6 +24,11 @@ export default function FunPostsPage(){
                             <img src={tiktok} alt="Tik Tok"/>
                         </Link>
                     </Grid>
+                    <Grid item xl={3} lg={4} md={6} sm={12}>
+                        <Link to="https://www.instagram.com/p/CMe-R2arSVM/">
+                            <img src="https://1015khits.com/wp-content/uploads/2019/11/growing01_MobileImageSizeReigNN1-520x518.jpg" alt="dog"/>
+                        </Link>
+                    </Grid>
                 </Grid>
             </Container>
         </section>
